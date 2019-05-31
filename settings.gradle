@@ -1,0 +1,10 @@
+pluginManagement {
+	repositories {
+		gradlePluginPortal()
+	}
+}
+rootProject.name = 'fullstack-app'
+include 'fullstack-app-core'
+include 'fullstack-app-web'
+include 'fullstack-app-rest'
+
